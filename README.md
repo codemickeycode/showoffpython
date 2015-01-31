@@ -1,7 +1,7 @@
 showOffPython
 =============
 
-an app that collates personal python projects that were shared in the pythonph facebook group
+An app for collating shared projects, code snippets, articles, working software and success stories related to Python by members of the PythonPH Community
 
 - [showOffPython Rules](https://github.com/codemickeycode/showoffpython/blob/master/showoffpython_rules.md)
 
