@@ -4,14 +4,21 @@
 
 /* This is just a sample */
 
+body {
+  background: #75a8d3;
+  font-family: PT Serif, serif;
+  padding: 3rem 0;
+  color: #666;
+}
+
 .page-header {
-    background-color: #ff9400;
+    background-color: #fff1c2;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
 
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    /*color: #ffffff;*/
     font-size: 36pt;
     text-decoration: none;
 }
@@ -20,9 +27,13 @@
     margin-left: 40px;
 }
 
-h1, h2, h3, h4 {
-    font-family: 'Lobster', cursive;
+.content .row {
+    background-color: #ffffff;
 }
+
+/*h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}*/
 
 .date {
     float: right;
