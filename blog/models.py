@@ -5,6 +5,7 @@ from django.utils import timezone
 class Post(models.Model):
     author = models.ForeignKey('auth.User')
     project_name = models.CharField(max_length=200)
+    created_by = models.CharField(max_length=200)
     repository = models.CharField(max_length=200)
     url = models.CharField(max_length=200)
     description = models.TextField()
